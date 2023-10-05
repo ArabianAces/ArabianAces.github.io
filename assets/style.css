@@ -60,13 +60,19 @@ body {
 .another_back{
   padding-top: 140px;
 }
+.header_content {
+  background: #1f3061;
+  padding: 10px 15px;
+}
 h5.sub_title {
   color: #fdfeff;
   font-weight: 600;
   padding: 10px;
-  background: #0000007a;
+  background: #1f3061;
+  font-size: 18px;
   text-align: center;
   display: inline-block;
+  margin-top: 47px;
 }
 .headline_content {
   border: 2px solid #dcae00;
@@ -82,9 +88,9 @@ h5.sub_title {
   flex-direction: column;
 }
 .hfsad h5 {
-  font-weight: 600;
-  font-size: 16px;
-  color: #1f3061;
+  font-weight: 700;
+  font-size: 32px;
+  color: #ffffff;
 }
 .header_title {
   text-align: center;
@@ -92,7 +98,7 @@ h5.sub_title {
 .header_content i {
   padding-left: 10px;
   font-size: 20px;
-  color: #1f3061;
+  color: #ffffff;
 }
 
 .intro_single_img {
@@ -260,15 +266,19 @@ input[type="submit"]:hover {
     text-align: center;
   }
   .another_back{
-    padding-top: 115px;
+    padding-top: 120px;
   }
+  .hfsad h5 {
+    font-weight: 600;
+    font-size: 22px;
+    color: #ffffff;
+}
 }
 
 div#google_translate_element {
   position: fixed;
   right: 0;
   top: 0;
-  z-index: 10;
 }
 .goog-te-gadget .goog-te-combo {
   margin: 4px 0;
