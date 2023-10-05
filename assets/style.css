@@ -38,9 +38,7 @@ body {
   overflow: hidden;
   padding: 0;
   height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
 }
 
 .video-background video {
@@ -59,14 +57,29 @@ body {
   font-size: 30px;
   color: #fff;
 }
+.another_back{
+  padding-top: 140px;
+}
+h5.sub_title {
+  color: #fdfeff;
+  font-weight: 600;
+  padding: 10px;
+  background: #0000007a;
+  text-align: center;
+  display: inline-block;
+}
 .headline_content {
   border: 2px solid #dcae00;
   /* display: inline-block; */
   margin: 0 auto;
   text-align: center;
-  width: 28%;
+  width: 50%;
   padding: 20px;
   background: #ffffff82;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 .hfsad h5 {
   font-weight: 600;
@@ -111,11 +124,6 @@ a.custom-button:hover {
   text-decoration: none;
 }
 
-h5.sub_title {
-  color: #1f3061;
-  font-weight: bold;
-  padding-bottom: 10px;
-}
 
 .why_content h5 {
   font-weight: 600;
@@ -225,10 +233,10 @@ input[type="submit"]:hover {
     margin: 0 auto;
   }
   .headline_content {
-    width: 75%;
+    width:85%;
   }
   .video-background {
-    height: 80vh;
+    height: 70vh;
     background-size: cover;
   }
   .intro_content_single h5 {
@@ -250,6 +258,9 @@ input[type="submit"]:hover {
   }
   .footer_content {
     text-align: center;
+  }
+  .another_back{
+    padding-top: 115px;
   }
 }
 
